@@ -2,6 +2,6 @@
 
 ## Architechture
 
-![architechture](http://jaune.github.io/frontend/architechture.png)
+![architechture](https://raw.githubusercontent.com/jaune/frontend/main/architechture.png)
 
 - [components](./components.md)
