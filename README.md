@@ -3,10 +3,33 @@
 Jaune's Book.
 ## Principles
 
-1. [KISS](https://en.wikipedia.org/wiki/KISS_principle) - Keep It Simple, Stupid!
-1. [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Don't Repeat Yourself
-1. [SOLID](https://en.wikipedia.org/wiki/SOLID)
-1. [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) - You aren't gonna need it
+- [KISS](https://en.wikipedia.org/wiki/KISS_principle) - Keep It Simple, Stupid!
+- [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Don't Repeat Yourself
+- [SOLID](https://en.wikipedia.org/wiki/SOLID)
+- [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) - You aren't gonna need it
+
+## Goals
+
+- Comprehensible
+  - code should be easy to understand
+  - naming matter
+- Explicit
+  - no ambiguity nor black magic
+  - complexity should be visible
+- Flexible
+  - easy to iterate
+  - adding new features should be simple
+  - feature flags
+- Stable
+  - fail as soon as possible (compile time, boot)
+  - fail gracefully
+  - failing is not a execption
+- Testable
+  - code should be testable
+  - UI should be testable
+  - behaviors should be testable
+- Observable
+  - log should be easy
 
 ## Tech
 
@@ -23,7 +46,7 @@ Jaune's Book.
 
 ### Environment
 - [lerna](https://github.com/lerna/lerna) - Multiple package in on repo
-- .nvmrc - Switch node environment [nvm](https://github.com/nvm-sh/nvm) [nvs](https://github.com/jasongin/nvs)
+- .nvmrc - Switch node environment ([nvm](https://github.com/nvm-sh/nvm), [nvs](https://github.com/jasongin/nvs))
 - [engineslist](https://github.com/muuvmuuv/engineslist) - Check node environment
 
 ### Versioning
@@ -55,16 +78,6 @@ Jaune's Book.
 - [Perfume.js](https://zizzamia.github.io/perfume/)
 
 ## Architechture
-
-### Goals
-
-1. Comprehensible - Understanding the codebase should be easy
-1. Explicit - Reduce ambiguity and black magic
-1. Flexible - Easy to iterate
-1. Stable - Fail as soon as possible (compile time, boot)
-1. Testable - UI and Behaviors
-1. Extendable - Adding new features should be simple
-
 
 ### Diagram
 
