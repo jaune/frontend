@@ -28,6 +28,7 @@
 
 ### Core
 - [TypeScript](https://www.typescriptlang.org/)
+- [lerna](https://github.com/lerna/lerna)
 - [Webpack](https://webpack.js.org/)
   - [code-splitting](https://webpack.js.org/guides/code-splitting/)
   - [svgr](https://react-svgr.com/docs/webpack/)
@@ -37,8 +38,15 @@
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [SCSS](https://sass-lang.com/)
 
-### Testing
+### Versioning
+- [Semantic Versioning](https://semver.org/)
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog/)
+- [commitlint](https://commitlint.js.org/)
+- [husky](https://github.com/typicode/husky)
+- [lint-staged](https://github.com/okonet/lint-staged)
 
+### Testing
 `No implicit globals` testing frameworks
 
 - [tap](https://node-tap.org/)
