@@ -5,6 +5,7 @@
 ### Goals
 
 1. Comprehensible - Understanding the codebase should be easy
+1. Explicit - Reduce ambiguity and black magic
 1. Flexible - Easy to iterate
 1. Stable - Fail as soon as possible (compile time, boot)
 1. Testable - UI and Behaviors
@@ -25,22 +26,29 @@
 
 ## Tech
 
-### Build system
+### Core
 - [TypeScript](https://www.typescriptlang.org/)
 - [Webpack](https://webpack.js.org/)
   - [code-splitting](https://webpack.js.org/guides/code-splitting/)
   - [svgr](https://react-svgr.com/docs/webpack/)
-
-### UI
 - [React](https://reactjs.org/)
   - [SSR](https://fr.reactjs.org/docs/react-dom-server.html)
+  - [Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [SCSS](https://sass-lang.com/)
+
+### Testing
+
+`No implicit globals` testing frameworks
+
+- [tap](https://node-tap.org/)
+- [ava](https://github.com/avajs/ava)
 
 ### Linter / Format
 - [prettier](https://prettier.io/)
 - [eslint](https://eslint.org/)
 - [stylelint](https://stylelint.io/)
+- [.editorconfig](https://editorconfig.org/)
 
 ### Advenced web
 - [PWA](https://fr.wikipedia.org/wiki/Progressive_web_app)
