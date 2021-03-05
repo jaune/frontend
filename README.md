@@ -28,7 +28,6 @@
 
 ### Core
 - [TypeScript](https://www.typescriptlang.org/)
-- [lerna](https://github.com/lerna/lerna)
 - [Webpack](https://webpack.js.org/)
   - [code-splitting](https://webpack.js.org/guides/code-splitting/)
   - [svgr](https://react-svgr.com/docs/webpack/)
@@ -37,6 +36,13 @@
   - [Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [SCSS](https://sass-lang.com/)
+
+### Environment
+- [lerna](https://github.com/lerna/lerna)
+- .nvmrc
+  - [nvs](https://github.com/jasongin/nvs)
+  - [nvm](https://github.com/nvm-sh/nvm)
+- [engineslist](https://github.com/muuvmuuv/engineslist)
 
 ### Versioning
 - [Semantic Versioning](https://semver.org/)
