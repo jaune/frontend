@@ -1,22 +1,6 @@
 # Frontend
 
-## Architechture
-
-### Goals
-
-1. Comprehensible - Understanding the codebase should be easy
-1. Explicit - Reduce ambiguity and black magic
-1. Flexible - Easy to iterate
-1. Stable - Fail as soon as possible (compile time, boot)
-1. Testable - UI and Behaviors
-1. Extendable - Adding new features should be simple
-
-### Diagram
-
-![architechture](https://raw.githubusercontent.com/jaune/frontend/main/architechture.png)
-
-- [components](./components.md)
-
+Jaune's Book.
 ## Principles
 
 1. [KISS](https://en.wikipedia.org/wiki/KISS_principle) - Keep It Simple, Stupid!
@@ -69,6 +53,24 @@
 - [OpenTelemetry](https://opentelemetry.io/docs/concepts/data-sources/)
 - [analytics](https://getanalytics.io/)
 - [Perfume.js](https://zizzamia.github.io/perfume/)
+
+## Architechture
+
+### Goals
+
+1. Comprehensible - Understanding the codebase should be easy
+1. Explicit - Reduce ambiguity and black magic
+1. Flexible - Easy to iterate
+1. Stable - Fail as soon as possible (compile time, boot)
+1. Testable - UI and Behaviors
+1. Extendable - Adding new features should be simple
+
+
+### Diagram
+
+![architechture](https://raw.githubusercontent.com/jaune/frontend/main/architechture.png)
+
+- [components](./components.md)
 
 ## Resources
 
