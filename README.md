@@ -19,30 +19,28 @@
 
 ## Principles
 
-1. [KISS](https://en.wikipedia.org/wiki/KISS_principle)
-1. [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+1. [KISS](https://en.wikipedia.org/wiki/KISS_principle) - Keep It Simple, Stupid!
+1. [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Don't Repeat Yourself
 1. [SOLID](https://en.wikipedia.org/wiki/SOLID)
-1. [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+1. [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) - You aren't gonna need it
 
 ## Tech
 
 ### Core
-- [TypeScript](https://www.typescriptlang.org/)
-- [Webpack](https://webpack.js.org/)
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript but typed
+- [Webpack](https://webpack.js.org/) - Everything is a module
   - [code-splitting](https://webpack.js.org/guides/code-splitting/)
   - [svgr](https://react-svgr.com/docs/webpack/)
 - [React](https://reactjs.org/)
-  - [SSR](https://fr.reactjs.org/docs/react-dom-server.html)
-  - [Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
-- [CSS Modules](https://github.com/css-modules/css-modules)
-- [SCSS](https://sass-lang.com/)
+  - [SSR](https://fr.reactjs.org/docs/react-dom-server.html) - Server side rendering
+  - [Error Boundaries](https://reactjs.org/docs/error-boundaries.html) - Fail gracefully
+- [CSS Modules](https://github.com/css-modules/css-modules) - Make CSS modular
+- [SCSS](https://sass-lang.com/) - CSS but 'better'
 
 ### Environment
-- [lerna](https://github.com/lerna/lerna)
-- .nvmrc
-  - [nvs](https://github.com/jasongin/nvs)
-  - [nvm](https://github.com/nvm-sh/nvm)
-- [engineslist](https://github.com/muuvmuuv/engineslist)
+- [lerna](https://github.com/lerna/lerna) - Multiple package in on repo
+- .nvmrc - Switch node environment [nvm](https://github.com/nvm-sh/nvm) [nvs](https://github.com/jasongin/nvs)
+- [engineslist](https://github.com/muuvmuuv/engineslist) - Check node environment
 
 ### Versioning
 - [Semantic Versioning](https://semver.org/)
