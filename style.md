@@ -1,0 +1,13 @@
+- you should use [SCSS](https://sass-lang.com/)
+- you should use [CSS Modules](https://github.com/css-modules/css-modules)
+- you should use [postcss](https://postcss.org/)
+- you should use [postcss-preset-env](https://www.npmjs.com/package/postcss-preset-env)
+
+- you should not use `*` selector
+- you should not modifier `!important`
+- you should not use `z-index`
+- [`active`](https://developer.mozilla.org/en-US/docs/Web/CSS/:active) is a reserved keyword, you should use `selected` instead.
+- you should follow [BEM](http://getbem.com/introduction/) and [atomic](https://atomicdesign.bradfrost.com/) methodology
+- you should think about handling all state
+- you should use [`@media (prefers-color-scheme) { ... }`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+- you should use [`@supports ( ... ) { ... }`](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
