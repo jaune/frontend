@@ -48,9 +48,10 @@ Jaune's Book.
 - [lerna](https://github.com/lerna/lerna) - Multiple package in on repo
 - .nvmrc - Switch node environment ([nvm](https://github.com/nvm-sh/nvm), [nvs](https://github.com/jasongin/nvs))
 - [engineslist](https://github.com/muuvmuuv/engineslist) - Check node environment
+- [browserslist](https://github.com/browserslist/browserslist) - Check browser environment
 
 ### Versioning
-- [Semantic Versioning](https://semver.org/)
+- [Semantic Versioning](https://semver.org/) - Versions have meaning
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog/)
 - [commitlint](https://commitlint.js.org/)
@@ -72,6 +73,14 @@ Jaune's Book.
 ### Advenced web
 - [PWA](https://fr.wikipedia.org/wiki/Progressive_web_app)
 
+### i18n & l10n
+
+ICU, extract strings
+
+ - [globalize](https://github.com/globalizejs/globalize)
+ - [messageformat](https://messageformat.github.io/messageformat/)
+ - [i18next](https://react.i18next.com/misc/using-with-icu-format)
+
 ### Observability
 - [OpenTelemetry](https://opentelemetry.io/docs/concepts/data-sources/)
 - [analytics](https://getanalytics.io/)
@@ -82,8 +91,6 @@ Jaune's Book.
 ### Diagram
 
 ![architechture](https://raw.githubusercontent.com/jaune/frontend/main/architechture.png)
-
-- [components](./components.md)
 
 ## Resources
 
