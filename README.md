@@ -1,12 +1,17 @@
 # Frontend
 
 Jaune's Book.
+
 ## Principles
 
 - [KISS](https://en.wikipedia.org/wiki/KISS_principle) - Keep It Simple, Stupid!
 - [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Don't Repeat Yourself
 - [SOLID](https://en.wikipedia.org/wiki/SOLID)
 - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) - You aren't gonna need it
+
+### Additional Principles
+
+- best pactice should be the easy way
 
 ## Goals
 
@@ -59,10 +64,17 @@ Jaune's Book.
 - [lint-staged](https://github.com/okonet/lint-staged)
 
 ### Testing
+
 `No implicit globals` testing frameworks
 
+#### Code Testing
 - [tap](https://node-tap.org/)
 - [ava](https://github.com/avajs/ava)
+
+#### Visual Testing
+- [cosmos](https://github.com/react-cosmos)
+- [playwright](https://github.com/microsoft/playwright)
+- [percy](https://percy.io/)
 
 ### Linter / Format
 - [prettier](https://prettier.io/)
