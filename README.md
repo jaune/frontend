@@ -76,7 +76,7 @@ Jaune's Book.
 - [playwright](https://github.com/microsoft/playwright)
 - [percy](https://percy.io/)
 
-#### Analysis
+### Analysis
 - [lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ### Linter / Format
