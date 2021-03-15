@@ -76,14 +76,26 @@ Jaune's Book.
 - [playwright](https://github.com/microsoft/playwright)
 - [percy](https://percy.io/)
 
+#### Analysis
+- [lighthouse](https://developers.google.com/web/tools/lighthouse)
+
 ### Linter / Format
 - [prettier](https://prettier.io/)
 - [eslint](https://eslint.org/)
 - [stylelint](https://stylelint.io/)
 - [.editorconfig](https://editorconfig.org/)
 
-### Advenced web
+### Advanced Features
+- Offline
+  - [Offline Event](https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event)
+  - [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+  - [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
+
+- [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - [PWA](https://fr.wikipedia.org/wiki/Progressive_web_app)
+  - [Notifications](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
+  - [Payment](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API)
+  - [Authentication](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API)
 
 ### i18n & l10n
 
