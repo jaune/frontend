@@ -114,12 +114,6 @@ ICU, extract strings
 - [Temporal](https://github.com/tc39/proposal-temporal)
 - [Luxon](https://moment.github.io/luxon/)
 
-## Architechture
-
-### Diagram
-
-![architechture](https://raw.githubusercontent.com/jaune/frontend/main/architechture.png)
-
 ## Resources
 
 1. [ISO/IEC 9126](https://en.wikipedia.org/wiki/ISO/IEC_9126)
