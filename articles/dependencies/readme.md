@@ -2,9 +2,10 @@
 
 `Dependency` is one of the more intuitive concept in software engineering.
 
+
 ## What is a dependency?
 
-> A dependency is one-way relationship between two logical entity. A entity depend of another, when incomplete without it.
+> A dependency is a unidirectional relationship between two logical entity. A entity depend of another, when incomplete without it.
 
 Abstact definition are the worst. Let's try to be more real: PIZZA 🍕.
 
@@ -38,7 +39,27 @@ const foo = () => {
 
 The array function `foo` depends on `bar` to run properly.
 
-## Explicit vs Implicit
+
+### Why dependency is a unidirectional relationship?
+
+`A` **depends** on `B`. We represent the dependency by an solid arrow from `A` to `B`.
+
+![A/B's dependencies](./a-b.svg)
+
+The arrow make the relationship clear, and means:
+
+- `A` depends on `B`
+- `A` is aware of `B`
+- changing `B` may impact `A`
+- `B` is not aware of `A`
+- changing `A` does not impact `B`
+
+![A/B circular dependencies](./a-b-circular.svg)
+
+In case of bidirectionnal dependency, you should prefer two arrows, instead of a two-headed arrow, it will make the circular dependency stand out.
+
+
+### Explicit vs Implicit
 
 It's not that simple, dependency explicity is a spectrum.
 
@@ -80,7 +101,8 @@ The more your dependcies are explicit:
 - the easier errors can be found
 - the more can be encapsulate
 
-## Who use dependencies?
+
+## Who uses dependencies?
 
 - [npm](https://www.npmjs.com/) install package dependencies
 - [webpack](https://webpack.js.org/) uses dependencies to bundle your application
