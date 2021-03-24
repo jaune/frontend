@@ -109,5 +109,5 @@ The more your dependcies are explicit:
 
 ## Who uses dependencies?
 
-- [npm](https://www.npmjs.com/) install package dependencies
-- [webpack](https://webpack.js.org/) uses dependencies to bundle your application
+- [npm](https://www.npmjs.com/) install recursively packages using dependencies discribe in the `package.json`
+- [webpack](https://webpack.js.org/) uses modules' dependencies to bundle your application
