@@ -107,7 +107,27 @@ The more your dependcies are explicit:
 - the more can be encapsulate
 
 
-## Who uses dependencies?
+## Leveraging dependencies
 
-- [npm](https://www.npmjs.com/) install recursively packages using dependencies discribe in the `package.json`
-- [webpack](https://webpack.js.org/) uses modules' dependencies to bundle your application
+Tech can help you get a lot of value out of you dependencies, here my basic stack.
+
+- [npm](https://www.npmjs.com/) - install recursively packages using dependencies discribe in the `package.json`
+- [webpack](https://webpack.js.org/) - bundle your application, using modules' dependencies, everything is be a module
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript but typed, with explicit imports
+- [CSS Modules](https://github.com/css-modules/css-modules) - Make CSS modular, with 'explicit' imports
+
+
+### Package
+
+A `package` is a set of modules and a [package.json](https://docs.npmjs.com/cli/v7/configuring-npm/package-json) discribing it. Usually managed via `npm` and distibuted by [https://www.npmjs.com/](npmjs.com). `packages` can be libraries like [lodash](https://www.npmjs.com/package/lodash), executables like [concurrently](https://www.npmjs.com/package/concurrently), etc.
+<!-- TODO: find more examples -->
+
+
+### Module
+
+Browsers use HTTP, HTML, CSS and JS as bluilding blocks of user experiences. Nowadays, frontend engineers don't write directly HTML nor JS, for lot of good reasons.
+<!-- TODO: find resources about 'good reasons to not wrote HTML/JS/CSS directly' -->
+
+`webpack` *bundle* your `modules`.
+
+`webpack` will generate browser-friendly files from your files. Where every file is a `module`. Yes, everything, `*.ts`, `*.css`, `*.svg`, `*.png`, `*.json`, `*.yml`, etc. Because the dependencies are explicit `webpack` will only bundle the needed files.

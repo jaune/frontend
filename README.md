@@ -38,8 +38,9 @@ Jaune's Book.
 ## Tech
 
 ### Core
+- [npm](https://www.npmjs.com/) - install recursively packages using dependencies discribe in the `package.json`
 - [TypeScript](https://www.typescriptlang.org/) - JavaScript but typed
-- [Webpack](https://webpack.js.org/) - Everything is a module
+- [Webpack](https://webpack.js.org/) - bundle your application, using modules' dependencies, everything is be a module
   - [code-splitting](https://webpack.js.org/guides/code-splitting/)
   - [svgr](https://react-svgr.com/docs/webpack/)
 - [React](https://reactjs.org/)
