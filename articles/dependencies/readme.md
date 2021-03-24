@@ -1,3 +1,8 @@
+---
+title: Why dependencies matter?
+tags: [software engineering, software architecture]
+---
+
 # Why dependencies matter?
 
 `Dependency` is one of the more intuitive concept in software engineering.
