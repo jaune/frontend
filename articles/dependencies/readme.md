@@ -45,6 +45,17 @@ const foo = () => {
 The array function `foo` depends on `bar` to run properly.
 
 
+```typescript
+const a
+
+open(a)
+// ...
+close(b)
+```
+
+Here `close` depends on `open` to run properly.
+
+
 ### Why dependency is a unidirectional relationship?
 
 `A` **depends** on `B`. We represent the dependency by an solid arrow from `A` to `B`.
