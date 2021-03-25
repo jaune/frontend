@@ -19,7 +19,7 @@ Jaune's Book.
 - [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Don't Repeat Yourself
 - [SOLID](https://en.wikipedia.org/wiki/SOLID)
 - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) - You aren't gonna need it
-- best pactice should be the easy way
+- best practices should be the easiest way
 - [The Early Days of Id Software: Programming Principles](./videos.md)
 - [Agile Principles](https://agilemanifesto.org/iso/en/principles.html)
 
