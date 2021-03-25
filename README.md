@@ -6,12 +6,10 @@ Jaune's Book.
 
 - [Why dependencies matter?](articles/dependencies/readme.md)
 
-
 ## Ideas
 
 - [configuration](ideas/configuration.md)
 - [logger](ideas/logger.md)
-
 
 ## Principles
 
