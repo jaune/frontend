@@ -76,7 +76,6 @@ Jaune's Book.
 - [lint-staged](https://github.com/okonet/lint-staged)
 
 ### Testing
-
 `No implicit globals` testing frameworks
 
 #### Code Testing
@@ -129,7 +128,7 @@ ICU, extract strings
 ## Resources
 
 - [ISO/IEC 9126](https://en.wikipedia.org/wiki/ISO/IEC_9126)
-
+- [uiguideline](https://www.uiguideline.com/components)
 
 ## React
 
