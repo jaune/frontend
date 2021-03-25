@@ -128,4 +128,9 @@ ICU, extract strings
 
 ## Resources
 
-1. [ISO/IEC 9126](https://en.wikipedia.org/wiki/ISO/IEC_9126)
+- [ISO/IEC 9126](https://en.wikipedia.org/wiki/ISO/IEC_9126)
+
+
+## React
+
+- [React Context for Dependency Injection Not State Management](https://blog.testdouble.com/posts/2021-03-19-react-context-for-dependency-injection-not-state/)
