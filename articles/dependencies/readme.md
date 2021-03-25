@@ -26,13 +26,15 @@ Let's keep the scope managable, because `Cheese` & `Olive Oil` are really comple
 
 Pizza are great, but let's see something less eatable.
 
-Web's foundation rest on `HTML` document, they depend on `images`, `styles` and `scripts` to be complete. When a style is missing everyting is off, without scripts custom behavoirs are broken or worst nothing is shown to the user, and imagine reddit without image.
+Web's foundation rest on `HTML` document. `HTML` don't have a uniform way to declare dependencies, scripts are usually imported using `<script src="script.js"></script>`, images can be include in the page via `<img src="image.png" />`, and styles are apply by `<link href="style.css" rel="stylesheet" />`. Links can also been see as dependencies, because a broken link will lead to undesirable state, but scoping can be a good idea, by the way links a actually called anchors `<a />`.
 
 ![HTML document's dependencies](./html.svg)
 
-`HTML` don't have a uniform way to declare dependencies, scripts are usually imported using `<script src="script.js"></script>`, images can be include in the page via `<img src="image.png" />`, and styles are apply by `<link href="style.css" rel="stylesheet" />`. Links can also been see as dependencies, because a broken link will lead to undesirable state, but scoping can be a good idea, by the way links a actually called anchors `<a />`.
+**Dependency between resources** can have more or less impact on the resultat, when a style is missing everyting is off, without scripts custom behavoirs are broken or worst nothing is shown to the user, and imagine reddit without image... I hear you. You are not writing simple HTML pages but complexe application in TypeScript. Dependency is a versatile concept, and can be apply to different aspect of the code and infrastructure.
 
-I hear you. You are not writing simple HTML pages but complexe application in TypeScript. Dependency is a versatile concept, and can be apply to different aspect of the code. Let's start with **dependency between symbols**.
+![Services' dependencies](./services.svg)
+
+**Dependency between services**, `frontend` depends on the `backend`, and the `backend` depends on the `database`.
 
 ```typescript
 const bar = () => {
@@ -46,7 +48,7 @@ const foo = () => {
 }
 ```
 
-Without `bar`, `foo` can not run. So `foo` depends on `bar`. Pretty simple right? Maybe too easy, let's make it more fun.
+**Dependency between symbols** without `bar` `foo` can not run. So `foo` depends on `bar`. Pretty simple right? Maybe too easy, let's make it more fun.
 
 ```typescript
 // ./bar.ts
@@ -128,9 +130,7 @@ Now, calling `close` without calling `open` is more difficult. It requires a lit
 The arrow make the relationship clear, and means:
 
 - `A` depends on `B`
-- `A` is aware of `B`
 - changing `B` may impact `A`
-- `B` is not aware of `A`
 - changing `A` does not impact `B`
 
 ![A/B circular dependencies](./a-b-circular.svg)
