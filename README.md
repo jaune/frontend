@@ -2,6 +2,17 @@
 
 Jaune's Book.
 
+## Articles
+
+- [Why dependencies matter?](articles/dependencies/readme.md)
+
+
+## Ideas
+
+- [configuration](ideas/configuration.md)
+- [logger](ideas/logger.md)
+
+
 ## Principles
 
 - [KISS](https://en.wikipedia.org/wiki/KISS_principle) - Keep It Simple, Stupid!
