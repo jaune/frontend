@@ -9,7 +9,7 @@
 - [OpenTelemetry logs - data-model](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/logs/data-model.md)
 - [rfc5424 - The Syslog Protocol](https://tools.ietf.org/html/rfc5424)
 
-### Other logger
+### Related
 - [winston](https://github.com/winstonjs/winston)
 - [bunyan](https://github.com/trentm/node-bunyan)
 - [pino](https://github.com/pinojs/pino)
