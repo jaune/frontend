@@ -22,6 +22,7 @@ Jaune's Book.
 - best practices should be the easiest way
 - [The Early Days of Id Software: Programming Principles](./videos.md)
 - [Agile Principles](https://agilemanifesto.org/iso/en/principles.html)
+- [Fail-fast](https://en.wikipedia.org/wiki/Fail-fast), [Fail-safe](https://en.wikipedia.org/wiki/Fail-safe) and [Fail Gracefully](https://en.wikipedia.org/wiki/Fault_tolerance#Terminology)
 
 ## Goals
 
