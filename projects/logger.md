@@ -1,5 +1,10 @@
 # Logger
 
+Frontend-first logger.
+
+## Features
+- TypeScript-friendly
+
 ### Inspiration
 - [debug](https://www.npmjs.com/package/debug) - A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers.
 - [debug-package](https://www.npmjs.com/package/debug-package) - Node.js module to automatically use the package name as the top level debug scope.
