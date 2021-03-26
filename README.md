@@ -5,6 +5,7 @@ Jaune's Book.
 ## Articles
 
 - [Why dependencies matter?](articles/dependencies/readme.md)
+- [Controlled Component Pattern](articles/controlled-component-pattern/readme.md)
 
 ## Ideas
 
