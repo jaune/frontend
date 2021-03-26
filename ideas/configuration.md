@@ -1,6 +1,6 @@
 # Configuration
 
-Application's configuration.
+Applications' configuration should be simple and flexible.
 
 ## Features
 - declarative

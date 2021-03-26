@@ -10,6 +10,7 @@ Jaune's Book.
 
 - [configuration](ideas/configuration.md)
 - [logger](ideas/logger.md)
+- [code-guideline](ideas/code-guideline.md)
 
 ## Principles
 
